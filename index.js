@@ -10,7 +10,6 @@ import authRoute from './routes/auth.js'
 import reviewRoute from './routes/reviews.js'
 import bookingRoute from './routes/bookings.js'
 
-
 dotenv.config()
 const app = express()
 const port = process.env.PORT || 8000
